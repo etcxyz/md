@@ -1,0 +1,44 @@
+{
+  "name": "casemd",
+  "version": "1.2.9",
+  "description": "Node.js media utility for YouTube, TikTok, and Spotify metadata, search, media links, and MP3 processing.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check index.js",
+    "test": "npm run check",
+    "prepublishOnly": "npm run check"
+  },
+  "keywords": [
+    "youtube",
+    "youtube-scraper",
+    "youtube-downloader",
+    "tiktok",
+    "tiktok-downloader",
+    "spotify",
+    "spotify-scraper",
+    "media-downloader",
+    "media-scraper",
+    "ytmp3",
+    "ytmp4",
+    "metadata",
+    "ffmpeg",
+    "nodejs"
+  ],
+  "author": "etcxyz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-id3": "^0.2.9",
+    "yt-search": "^2.13.1",
+    "ytdl-core": "^4.11.5",
+    "ytmusic-api": "^5.2.1"
+  }
+}
