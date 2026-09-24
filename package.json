@@ -6,7 +6,6 @@
   "exports": {
     ".": "./index.js"
   },
-  "type": "commonjs",
   "engines": {
     "node": ">=18"
   },
@@ -14,6 +13,10 @@
     "check": "node --check index.js",
     "test": "npm run check",
     "prepublishOnly": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etcxyz/md.git"
   },
   "keywords": [
     "youtube",
